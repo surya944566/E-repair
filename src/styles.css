@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.text-color{
+    color: #ccc;
+}
+.perimary-color{
+    color: #4ecdc4;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-15{
+    font-size: 15px;
+}
+.primary-btn{
+    background: linear-gradient(45deg, #4ecdc4, #00c6ff);
+            color: white;
+}

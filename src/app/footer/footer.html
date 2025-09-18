@@ -1,0 +1,95 @@
+<footer>
+    <!-- Decorative elements -->
+    <div class="footer-decoration footer-circle"></div>
+    <div class="footer-decoration footer-line"></div>
+
+    <div class="container fluid">
+        <div class="row px-5">
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="footer-col">
+                    <h4 class="f-18">E-Repair</h4>
+                    <p class="f-15 mt-4" style="line-height: 30px;" >Your trusted partner for all electronic device repairs. We provide fast, reliable service with a
+                        satisfaction guarantee.</p>
+                    <div class="footer-social border-bottom-0" style="width: 300px; gap: 10px; display: flex;">
+                        <a href="#"><i class="fab fa-facebook-f fa-lg "></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-lg" ></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="footer-col">
+                    <h4 class="f-18">Quick Links</h4>
+                    <ul class="list-unstyled mt-4" >
+                        <li><a href="#" class="text-decoration-none  text-color"><i class="fas fa-chevron-right p-2"></i> Home</a></li>
+                        <li><a href="#" class="text-decoration-none  text-color"><i class="fas fa-chevron-right  p-2"></i> Services</a></li>
+                        <li><a href="#" class="text-decoration-none  text-color"><i class="fas fa-chevron-right  p-2"></i> Repair Status</a></li>
+                        <li><a href="#" class="text-decoration-none  text-color"><i class="fas fa-chevron-right  p-2"></i> Pricing</a></li>
+                        <li><a href="#" class="text-decoration-none  text-color"><i class="fas fa-chevron-right  p-2"></i> About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="footer-col footer-contact">
+                    <h4 class="f-18">Contact Us</h4>
+                    <div class="mt-4">
+                    <div class="d-flex"><i class="fas fa-map-marker-alt pt-3 pe-3 perimary-color"></i> <p>123 Tech Street, Repair City, RC 54321</p></div>
+                    <div class="d-flex"><i class="fas fa-phone pt-1 pe-3 perimary-color"></i>  <p>+1 (555) 123-REPAIR</p></div>
+                    <div class="d-flex"><i class="fas fa-envelope pt-1 pe-3 perimary-color"></i>  <p>support@e-repair.com</p></div>
+                    <div class="d-flex"><i class="fas fa-clock pt-3 pe-3 perimary-color"></i>  <p>Mon-Fri: 9AM - 6PM, Sat: 10AM - 4PM</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer-col footer-newsletter">
+                    <h4 class="f-18">Newsletter</h4>
+                    <p>Subscribe to our newsletter for latest updates, tips, and exclusive offers.</p>
+                    <form class="d-flex mt-4 gap-2">
+                        <input type="email" class="text-center rounded-2" style="background-color: rgba(255, 255, 255, 0.1);border: none;" placeholder="Enter your email" required>
+                        <button type="submit" class="rounded-2 px-3 py-2 primary-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2023 E-Repair. All Rights Reserved. | Designed with <i class="fas fa-heart"
+                style="color: #4ecdc4;"></i></p>
+    </div>
+</footer>
+
+<!-- <script>
+        // Animation for footer elements on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const footerSections = document.querySelectorAll('.footer-col');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            footerSections.forEach(section => {
+                observer.observe(section);
+            });
+            
+            // Newsletter form submission
+            const newsletterForm = document.querySelector('.footer-newsletter form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const emailInput = this.querySelector('input[type="email"]');
+                    if (emailInput.value) {
+                        alert(`Thank you for subscribing with: ${emailInput.value}`);
+                        emailInput.value = '';
+                    }
+                });
+            }
+        });
+    </script> -->
